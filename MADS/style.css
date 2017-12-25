@@ -1,0 +1,81 @@
+/*Stylesheet for the homepage of M.A.D.S*/
+/*Body - style for user*/
+body{
+  background-color: lightblue;
+  margin: auto;
+  padding: auto;2
+}
+/*Span*/
+section{
+  font-family: helvetica;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Navigasjon*/
+nav{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(#d0d0d0,lightblue)
+}
+a{
+  font-family: serif;
+  font-style: italic;
+  font-size: 1em;
+  color: brown;
+  padding: 2em;
+}
+/*Logo id*/
+#logo{
+  /*Code for senter*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*Defines size of pic*/
+  height: 15%;
+  width: 15%;
+}
+/*paragraph style*/
+p{
+color: white;
+text-align: center;
+font-size: 0.9em;
+height: 20em;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+/*Footer*/
+footer{
+  font-style: italic;
+  text-align: center;
+  font-size: 0.7em;
+  margin: 0em;
+  background: linear-gradient(lightblue, #d0d0d0)
+}
+#Bottom{
+  font-family: serif;
+  font-style: italic;
+  font-size: 1em;
+  color: brown;
+  padding: 2em;
+}
+#Mail{
+  font-family: serif;
+  font-style: italic;
+  font-size: 1em;
+  color: blue;
+  padding: 0em;
+}
+h1{
+  font-family: helvetica;
+}
+h2{
+  font-family: helvetica;
+}
+h3{
+  font-family: helvetica;
+}

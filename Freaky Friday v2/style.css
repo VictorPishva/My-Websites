@@ -1,0 +1,313 @@
+/*For alle sider*/
+html{
+background: url(white-wood-wallpaper.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+box-sizing: border-box;
+}
+
+body{
+margin: 0;
+width: 100%;
+padding: 0;
+}
+
+nav{
+  position: sticky;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3em;
+  margin: 0;
+  background-color: floralwhite;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+#placeholder{
+  width: 100%;
+  height: 3em;
+  margin: 0;
+}
+
+a{
+  font-family: Arial;
+  font-size: 1.1em;
+  height: fit-content;
+  align-self: center;
+}
+
+a:visited, a:link{
+  color: black;
+  background-color: #e59244;
+  text-decoration: none;
+  border-radius: 28px;
+  color: #fffaf0;
+  font-size: 1.1em;
+  background: #000000;
+  padding: 0.2em;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover, a:active{
+  text-decoration: none;
+  color: red;
+  margin: 0;
+  padding: 0.1em;
+  border: 0;
+}
+
+h1{
+  font: arial;
+  color: black;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  height: 5vh;
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 2vh;
+  font-size: 2em;
+  text-align: center;
+}
+
+p{
+  font-family: arial;
+  margin: 0;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-align: justify;
+  color: black;
+  font-size: 1em;
+  display: inline-block;
+  word-spacing: 0.1vw;
+  margin-bottom: 5vh;
+}
+
+section{
+  font: arial;
+  background-color: transparent;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+
+/*For index/homepagen*/
+#copyright{
+  font-family: arial;
+  font-size: 0.7em;
+  font-style: italic;
+  color: black;
+}
+
+#VictorLink{
+  text-decoration: none;
+  text-align: center;
+  font-family: arial;
+  font-size: inherit;
+  font-style: italic;
+  color: black;
+  background-color: transparent;
+}
+
+
+/*For Om Oss*/
+
+
+#MittBilde{
+  margin-top: 5vh;
+  max-width: 30em;
+  width: 25em;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Meny */
+
+#Kjopdiv{
+  width: 80%;
+  height: auto;
+  display: inline-block;
+  margin-top: 5vh;
+}
+
+#kjopbilde{
+  width: 4.5em;
+  height: auto;
+  float: left;
+}
+
+#kjoptekst{
+  margin: 0;
+}
+
+input[type=checkbox] {
+  visibility: hidden;
+}
+
+label {
+  -webkit-appearance: push-button;
+  appearance: button;
+  display: inline-block;
+  margin: 0;
+  cursor: pointer;
+}
+
+#ghosttext{
+  display: none;
+}
+
+#ghosttext2{
+  display: none;
+}
+
+#ghosttext3{
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ #ghosttext {
+  display: inline;
+}
+
+input[type="checkbox"]:checked ~ #ghosttext2 {
+  display: inline;
+}
+
+input[type="checkbox"]:checked ~ #ghosttext3 {
+  display: inline;
+}
+
+#bottompic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  width: 15em;
+  height: auto;
+}
+
+
+/* kOntakt oss*/
+
+iframe{
+  margin-bottom: 10vh;
+  width: 25em;
+  height: 25em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: .5em;
+  border-style: solid;
+  color: black;
+}
+
+footer{
+  display: inline-flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  margin-bottom: 2vh;
+}
+
+footer div{
+  position: relative;
+  height: 80%;
+  padding: 0;
+  margin: 0;;
+  display: inline-block;
+}
+
+#leftbox{
+width: 50vw;
+height: fit-content;
+}
+
+#leftbox > *{
+  display: inline;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+#face{
+  width: 3em;
+  height: 3em;
+  background-color: transparent;
+  vertical-align: bottom;
+}
+
+#heihei{
+  background-color: transparent;
+  color: black;
+  font: arial;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#mailfillleft{
+    width: 5vw;
+    height: 10vh;
+}
+
+#mailboks{
+  width: 50vw;
+  height: fit-content;
+}
+
+#mailboks > *{
+  display: inline;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  float:right;
+}
+
+#mail{
+  width: 3em;
+  height: 3em;
+  vertical-align: bottom;
+}
+
+#maifillright{
+    width: 5vw;
+    height: 10vh;
+}
+
+#mailtekst{
+  font: arial;
+  font-size: 0.7em;
+}
+
+/*
+* {
+    box-sizing: border-box;
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+float: left;
+padding: 15px;
+border: 1px solid red;
+}
+*/
